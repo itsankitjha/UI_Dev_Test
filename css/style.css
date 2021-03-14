@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    
+}
+
+#conatiner{
+    position:relative;
+   
+
+}
+
+#sidebar{
+    position: absolute;
+    height: 100vh;
+    width: 9vw;
+    display: flex;
+    flex-direction: column;
+    background-color: #fafafa;
+    box-shadow: 5px 0px 19px 0px rgba(218,219,221,255);
+    z-index: 1;
+}
+
+#logo{
+    height: 20vh; 
+    width: 9vw;
+   padding-top: 3vh;
+   background-color: #fbfbfb;
+   box-shadow: 5px 0px 19px 0px rgba(228,228,228,255);
+   
+
+}
+
+#logo img{
+    height: 15vh;
+    vertical-align: middle;
+    
+}
+
+#nav > ul > li{
+    list-style: none;
+    height: 15vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    font-size: 1.9vh;
+    color: #86909a;
+    padding: 3vh;
+}
+
+#nav > ul > li > img{
+    height: 6vh;
+    width: 4vw;
+}
+
+#nav > ul >li:nth-child(2){
+    background-color: #d2e2ef;
+    border-left: 5px solid #376ecb;
+    color:  black
+}
+
+#section{
+    position: relative;
+    height: 100vh;
+    width: 91vw;
+    left: 9vw;
+    background-color: #f4f5f7;
+    display: flex;
+    flex-direction: column;    
+}
+
+#section > #head{
+    height: 20vh; 
+    width: inherit;
+    background: #ffffff;
+}
+
+
+#section > img{
+    position : absolute;
+    transform: rotate(270deg);
+    height: 18px;
+    color: #8a959d;
+    top: 25vh;
+    left: 4vw;
+    
+}
+
+#section > #vid{
+    position : absolute; 
+    color: black;
+    top: 25.25vh;
+    left: 11vh;
+    font-size: 14px;
+    color: #8a959d;
+}
+
+
+#get_url{
+    position: absolute;
+    top: 40vh;
+    left: 10vw;
+    padding: 15px;
+    width: 60vw;
+    border-radius: 12px;
+    background-color: #fafafa;
+    border: none;
+    font-size: 12px;
+}
+
+  
+::placeholder{
+    font-weight: bold;
+    color:black;
+}
+
+#or{
+    position: absolute;
+    top: 55vh;
+    left: 40vw;
+    font-size: 12px;
+    font-weight: 800;
+}
+#new_Btn{
+    position: absolute;
+    top: 55vh;
+    left: 10vw;
+    padding: 55px;
+    background-color: #fafafa;
+    font-size: 12px;
+   font-weight: 800;
+}
+
+  #html_btn {
+    display: none;
+  }
